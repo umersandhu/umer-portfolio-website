@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umer Personal portfolio website</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="images/U logo.png"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <div id="header">
+            <div class="container">
+                <nav>
+                          <img src="images/my name logo.png" class="logo" alt="logo">
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#my-work">My Work</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
+                            <li><a href="#CV">My CV</a></li>
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i> <!-- only show in phone size sites  -->
+                             
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i> <!-- only show in phone size sites  -->
+
+                      </nav>
+                      <div class="headertxt">
+                        <p>Web Developer / Office Management</p>
+                        <h1>Hi, I am <span> Umer Sandhu</span> <br></h1> <h4>A web developer that creates websites. My skills include coding in <br> HTML, CSS, and JavaScript, as well as working with CMS like <br> WordPress from Pakistan</h4>
+                      </div>
+                      <!-- headertxt  -->
+            </div>
+            <!-- container  -->
+      </div>
+      <!-- header  -->
+
+<!---------about--------->
+      <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+              <img src="images/umer photo.jpg" alt="photo">
+            </div>
+            <!-- about-col-1  -->
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>AoA. <br>
+                    My name is Umer Sandhu. I live in Sialkot Pakistan. I studied in BSCS from virtual university.I know HTML,CSS ,Javascript,and Wordpress <b>(Web development) </b> .I want to become a web developer and also an App developer.I assure you that if you give me a chance, I will not disappoint you. I will give you a good performance.
+                    <br>
+                    Thank You</p>
+                <div class="tab-titles">
+                      <p class="tab-link active-link" onclick="opentab('Skills')">Skills</p>
+                      <p class="tab-link" onclick="opentab('Experience')">Experience</p>
+                      <p class="tab-link" onclick="opentab('Education')">Education</p>
+                </div>
+                <!-- tab-titles  -->
+                <div class="tab-contents active-tab" id="Skills">
+                  <ul>
+                    <li><span>Web Development</span><br>Website Through Html , CSS & JS</li>
+                    <li><span>Wordpress</span><br>Making Online Sites through CMS</li>
+                    <li><span>Office Management</span><br>MS Word , MS Excel & MS PowerPoint</li>
+                  </ul>
+                </div>
+                <!-- tab-contents  -->
+                <div class="tab-contents" id="Experience">
+                  <ul>
+                    <li><span>Data Entry</span><br>6 months From Penna Overseas Factory Sailkot</li>
+                  </ul>
+                </div>
+                <!-- tab-contents  -->
+                <div class="tab-contents" id="Education">
+                  <ul>
+                    <li><span>Matric</span><br>High School (A+ Grade)</li>
+                    <li><span>Fsc Pre-Engineering</span><br>Govt Degree College (A Grade)</li>
+                    <li><span>BSCS</span><br>From Virtual University (Currently)</li>
+                  </ul>
+                </div>
+                <!-- tab-contents  -->
+            </div>
+            <!-- about-col-2  -->
+
+        </div>
+          <!-- row  -->
+        </div>
+        <!-- container  -->
+      </div>
+      <!-- about  -->
+
+<!-- ----------services--------- -->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web development</h2>
+              <p>Providing Websites makes through Html, CSS and  JavaScript.By a fully mannual way and also works on Web Projects.</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-wordpress"></i>
+              <h2>Wordpress Websites</h2>
+              <p>Making Websites like blogging , content writing and portfolio etc other Wordpress Projects,through the Wordpress software </p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-wpforms"></i>
+              <h2>Office Management</h2>
+              <p>Making the Excel Projects any data or records files etc , also content writing or blog writing or other things in MS word and making presentation through MS PowerPoint</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+            <!-- services-list  -->
+        </div>
+        <!-- container  -->
+      </div>
+      <!-- services  -->
+
+<!-- -------my work------  -->
+     <div id="my-work">
+      <div class="container">
+      <h1 class="sub-title">My Work</h1>
+             <div class="work-list">
+                 <div class="work">
+                  <img src="images/work-1.png" alt="work">
+                  <div class="layer">
+                       <h3>Amazon Clone Site</h3>
+                       <p>Make Amazon front/home page Website through pure HTML and CSS only. with header/nav bar , body ,images,footer and other information in it.</p>
+                       <a href="/Projects/Amazon clone site/Amazon clone site.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+                  <!-- layer  -->
+                 </div>
+                 <!-- work  -->
+                 <div class="work">
+                  <img src="images/work-2.png" alt="work">
+                  <div class="layer">
+                    <h3>To Do List</h3>
+                    <p>Makes a To Do List for mark down your work or for taking notes you can mark it when its done and also delete it  </p>
+                    <a href="/Projects/To Do list/To Do list.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+               <!-- layer  -->
+                 </div>
+                 <!-- work  -->
+                 <div class="work">
+                  <img src="images/work-3.png" alt="work">
+                  <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>Build a calculator using HTML CSS and JavaScript.In this calculator I created UI design using HTML and CSS then I add calculator functionality with the help for simple JavaScript code</p>
+                    <a href="/Projects/calculator/calculator.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+               <!-- layer  -->
+                 </div>
+                 <!-- work  -->
+             </div>
+             <!-- work-list  -->
+             <a href="#" class="btn">See More</a>
+
+      </div>
+      <!-- container  -->
+     </div>
+     <!-- my work  -->
+
+<!-- ---------contact------  -->
+<div id="contact">
+  <div class="container">
+    
+    <div class="row"> <!-- second time using row class  --> 
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>Sandhuumer898@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+923054895081</p>
+        <div class="social-icon">
+          <a href="https://www.linkedin.com/in/umer-sandhu-7ab47a274/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/umersandhu" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/umer.sandhuu" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/umersandhu0/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+         <!-- social-icon  -->
+         <a href="images/umer cv.pdf" download target="_blank" class="btn btn2" id="CV">Download My CV</a>
+      </div>
+      <!-- contact-left  -->
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+      <!-- contact-right  -->
+    </div>
+    <!-- row  -->
+  </div>
+  <!-- container  -->
+  <div class="copyright">Copyright &copy Umer. Made with <i class="fa-solid fa-heart"></i> by  Umer Sandhu</div>
+</div>
+<!-- contact  -->
+
+
+      <!-- js  for about tabs  -->
+      <script>
+        var tablinks= document.getElementsByClassName('tab-link');
+        var tabcontents= document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+          for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      <!-- js for sidemenu bar  -->
+      <script>
+         var sidemenu=document.getElementById('sidemenu');
+         function openmenu(){
+               sidemenu.style.right="0";
+         }
+         function closemenu(){
+          sidemenu.style.right="-200px";
+         }
+      </script>
+      <!-- js for email receiving  -->
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz_QuaYGXWsVt1JLyozBih4ZOVe02hjldU-mHBxkdYcLBHveY6SmeXJ6IL3Uj683jHQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById('msg')
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML = "Message Sent successfully"
+              setTimeout(function(){
+                msg.innerHTML=""
+              },5000)
+              form.reset()
+            }
+            )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+<!-- js link -->
+</html>
